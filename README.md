@@ -23,28 +23,34 @@ This project simulates real-time health monitoring of a patient by tracking thre
 - **Libraries:** pandas, random, time, scikit-learn
 - **Algorithm:** Isolation Forest (Unsupervised Anomaly Detection)
 
-### 🚀 How to Run
+### Overview
+This project monitors real-time health vitals and detects anomalies using AI.
 
+### 🚀 How to Run
 ```bash
 # Install dependencies
 pip install pandas scikit-learn
 
 # Run the project
 python final_project.py
-📸 Demo Result (Live)
-'''
+```
+
+### 📸 Demo Result (Live)
+```
 Training AI model with 1000 records...
 AI Model Ready! Starting Real-Time Monitoring...
 
 [Normal] HR: 78 | SpO2: 97 | Temp: 36.8 -> STATUS: NORMAL
 [Normal] HR: 82 | SpO2: 96 | Temp: 36.9 -> STATUS: NORMAL
-[ALERT!] HR: 130 | SpO2: 95 | Temp: 37.1 -> STATUS: ANOMALY DETECTED! 🚨
-'''
-🔮 Future Scope
--Integration with IoT sensors (MAX30100, DHT11)
--Mobile App Alert System
--Cloud Dashboard with Firebase
--ECG Signal Analysis
-👩‍💻 Author
-mythri13-488
-Project - 2025-2026
+[ALERT!] HR: 130 | SpO2: 95 | Temp: 37.1 -> STATUS: ANOMALY DETECTED!
+```
+
+### 🔮 Future Scope
+- Integration with IoT sensors (MAX30100, DHT11)
+- Mobile App Alert System
+- Cloud Dashboard with Firebase
+- ECG Signal Analysis
+
+### 👩‍💻 Author
+mythri13-488 |
+Project - 2025-2026 
